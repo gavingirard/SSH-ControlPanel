@@ -33,7 +33,7 @@ needed_folders     = []
 start_time = time.perf_counter()
 
 class LogType:
-	INFO	= "\033[0m", 		  "INFO"
+	INFO	= "\033[0m",          "INFO"
 	WARNING = "\033[1;38;5;220m", "WARNING"
 	ERROR   = "\033[1;38;5;160m", "ERROR"
 
